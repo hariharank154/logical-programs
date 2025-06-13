@@ -1,4 +1,5 @@
 <h5>Left Aligned Number Pyramid</h5>
+<h5>Pattern 1</h5>
 
 ```java
 public class Func {
