@@ -99,3 +99,31 @@ public class Func {
 1 2 
 1 
 </pre>
+
+<h5>Right Aligned Number Pyramid</h5>
+<h5>Pattern 1</h5>
+
+```java
+public class Func {
+    public static void main(String[] args) {
+        int n = 5; // Number of rows
+
+        for (int i = 1; i <= n; i++) { // Row loop
+            for (int j = 1; j < i; j++) { // Print spaces
+                System.out.print(" ");
+            }
+
+            for (int k = i; k <= n; k++) { // Print numbers
+                System.out.print(k);
+            }
+
+            System.out.println(); // Move to next line
+        }
+    }
+}
+```
+`Output`
+
+
+  
+
